@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+}
+
+.pad {
+    text-align: center;
+    width: 155px;
+    height: 248px;
+    margin-top: 0px;
+}
+
+.competitor {
+    color: white;
+    margin-bottom: 21px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.score-bg {
+   background-color: #080001;
+   margin-top: 0px;
+   height: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#score-home, #score-guest {
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    padding-top: 20px;
+    
+
+}
+
+
+.btn {
+    margin-top: 26px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    height: 45px;
+    width: 45px;
+    font-family: 'Cursed Timer ULiL';
+    border-radius: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+
+}
+
+.btn-gp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-nm {
+    color: white;
+    height: 50px;
+    width: 90px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+}
